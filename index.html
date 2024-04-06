@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 class="heading">TIC TAC TOE</h1>
+      <p class="para">
+        Tic-Tac-Toe is a classic game played on a 3x3 grid. Two players take
+        turns marking spaces with their respective symbols, typically "X" and
+        "O", aiming to form a horizontal, vertical, or diagonal line of three of
+        their marks. The game ends when a player achieves this goal or when the
+        grid is full, resulting in a draw. It's a simple yet engaging game
+        suitable for all ages. In most cases, the "X" player takes the first
+        turn.
+      </p>
+      <div class="grid">
+        <div class="grid-row">
+          <div class="box" data-index="1"></div>
+          <div class="box" data-index="2"></div>
+          <div class="box" data-index="3"></div>
+        </div>
+        <div class="grid-row">
+          <div class="box" data-index="4"></div>
+          <div class="box" data-index="5"></div>
+          <div class="box" data-index="6"></div>
+        </div>
+        <div class="grid-row">
+          <div class="box" data-index="7"></div>
+          <div class="box" data-index="8"></div>
+          <div class="box" data-index="9"></div>
+        </div>
+      </div>
+      <p id="status" class="status"></p>
+      <button id="resetButton">Reset Game</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
